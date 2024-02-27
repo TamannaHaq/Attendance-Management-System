@@ -1,0 +1,18 @@
+//Create database:
+CREATE DATABASE attendence_ms;
+
+
+
+//Create table for login page:
+CREATE TABLE users(id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,name VARCHAR(50),password VARCHAR(50),email VARCHAR(100),contact VARCHAR(20));
+
+
+
+//Create table for student_details:
+CREATE TABLE student_details(student_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,name VARCHAR(100),Department VARCHAR(100),Semester VARCHAR(100));
+
+
+
+//Create table for attendence:
+CREATE TABLE attendence(student_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT ,status VARCHAR(20));
+

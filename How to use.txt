@@ -1,0 +1,5 @@
+Step-1: Open Project in Netbeans
+Step-2: Include the jar files from the Jar files folder
+Step-3: Open xammp and create database name attendence_ms
+Step-4: Import the database from database folder to created attendence_ms database
+Step-5: Run the project from Load.java file
